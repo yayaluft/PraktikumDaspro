@@ -1,0 +1,1 @@
+Hello word, ini adalah respository pertama saya. 
