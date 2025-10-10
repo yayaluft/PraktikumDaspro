@@ -14,3 +14,5 @@ Sintaks default memiliki peranan sebagai opsi terakhir yang dieksekusi apabila n
 Percobaan 3
 1. Apa yang terjadi jika mahasiswa menjawab "No" pada pertanyaan bebas kompen? Mengapa demikian? 
 Output yang dihasilkan adalah "Gagal! Mahasiswa masih memiliki jumlah tanggungan kompen". Karena program menyimpan jawaban user dari atas terlebih dahulu, jawaban "No" bernilai false sehingga program langsung mengeksekusi else terluar dan mengabaikan operasi jumlah bimbingan.
+2. Jelaskan maksud dari potongan kode berikut! if (bimbinganP1 >= 8 && bimbinganP2 >= 4 ) {
+Potongan kode diatas menggunakan oeprator logika AND(&&) yang berperan untuk membaca dua kondisi sekaligus yaitu bimbinganP1 dan bimbinganP2.
