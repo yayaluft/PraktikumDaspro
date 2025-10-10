@@ -8,3 +8,5 @@ Berada di commit file modifikasi percobaan 1.
 Percobaan 2
 1. Apa fungsi dari sintaks break? 
 Sintaks break memiliki peranan untuk menghentikan secara paksa program agar tidak menyelesaikan case selanjutnya, dan progam hanya akan menyelesaikan case yang diminta user.
+2. Apa peran dari sintaks default pada struktur pemilihan SWITCH-CASE? 
+Sintaks default memiliki peranan sebagai opsi terakhir yang dieksekusi apabila nilai case sebelumnya tidak ada yang sesuai.
