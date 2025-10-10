@@ -16,3 +16,8 @@ Percobaan 3
 Output yang dihasilkan adalah "Gagal! Mahasiswa masih memiliki jumlah tanggungan kompen". Karena program menyimpan jawaban user dari atas terlebih dahulu, jawaban "No" bernilai false sehingga program langsung mengeksekusi else terluar dan mengabaikan operasi jumlah bimbingan.
 2. Jelaskan maksud dari potongan kode berikut! if (bimbinganP1 >= 8 && bimbinganP2 >= 4 ) {
 Potongan kode diatas menggunakan oeprator logika AND(&&) yang berperan untuk membaca dua kondisi sekaligus yaitu bimbinganP1 dan bimbinganP2.
+3. Bagaimana alur pemeriksaan syarat mahasiswa dari awal sampai akhir? Jelaskan secara runtut untuk semua kondisi! 
+- Program akan membaca jawaban mengenai "Apakah mahasiswa sudah bebas dari kompen" dari user. Jika jawaban true, program akan melanjutkan ke pengecekan jumlah bimbingan. Jika jawaban false, program akan langsung mengeluarkan pesan berupa "Gagal! Mahasiswa masih memiliki tanggungan kompen".
+- Pada sintaks if pertama, program akan menjalankan pengecekan. Jika bimbingan P1 mencapai 8 kali dan bimbingan P2 mencapai 4 kali, program akan mengeluarkan pesan "Semua syarat terpenuhi. Mahasiswa bleh mendaftar ujian skripsi". Jika tidak mencapai salah satu atau kedua syarat tersebut, porgram akan melanjutkan ke else if berikutnya.
+- Selanjutnya program akan memeriksa jumlah bimbingan P1 jika belum mencapai 8 kali dan bimbingan P2 telah mencukupi, maka program akan mengeluarkan pesan "Gagal! log bimbingan P1 belum mencapai 8 kali". 
+- Program akan memeriksa jumlah bimbingan P1 telah mencukupi, namun bimbingan P2 kurang dari jumlah capaian akan mengeluarkan pesan  "Gagal! log bimbingan P2 belum mencapai 4 kali". 
