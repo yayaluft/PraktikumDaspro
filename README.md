@@ -10,3 +10,7 @@ Percobaan 2
 Sintaks break memiliki peranan untuk menghentikan secara paksa program agar tidak menyelesaikan case selanjutnya, dan progam hanya akan menyelesaikan case yang diminta user.
 2. Apa peran dari sintaks default pada struktur pemilihan SWITCH-CASE? 
 Sintaks default memiliki peranan sebagai opsi terakhir yang dieksekusi apabila nilai case sebelumnya tidak ada yang sesuai.
+
+Percobaan 3
+1. Apa yang terjadi jika mahasiswa menjawab "No" pada pertanyaan bebas kompen? Mengapa demikian? 
+Output yang dihasilkan adalah "Gagal! Mahasiswa masih memiliki jumlah tanggungan kompen". Karena program menyimpan jawaban user dari atas terlebih dahulu, jawaban "No" bernilai false sehingga program langsung mengeksekusi else terluar dan mengabaikan operasi jumlah bimbingan.
