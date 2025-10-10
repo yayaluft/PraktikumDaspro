@@ -4,3 +4,7 @@ Karena dalam struktur IF tersebut menggunakan tipe data boolean yang telah memil
 Nilai false tersebut tidak mengeluarkan output.
 3. Sistem perlu memberikan informasi apabila pengguna memasukkan nilai false, maka terdapat keluaran “Registrasi ditolak. Silakan lunasi UKT terlebih dahulu”. Modifikasi program tersebut dengan menambahkan struktur ELSE!
 Berada di commit file modifikasi percobaan 1.
+
+Percobaan 2
+1. Apa fungsi dari sintaks break? 
+Sintaks break memiliki peranan untuk menghentikan secara paksa program agar tidak menyelesaikan case selanjutnya, dan progam hanya akan menyelesaikan case yang diminta user.
